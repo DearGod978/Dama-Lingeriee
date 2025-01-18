@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dama Lingerie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Dama Lingerie</div>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showCategory('lingeries')">Lingeries</a></li>
+                <li><a href="#" onclick="showCategory('eroticos')">Produtos Eróticos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="lingeries" class="category">
+            <h2>Lingeries</h2>
+            <div class="products">
+                <!-- Exemplo de Produto 1 -->
+                <div class="product">
+                    <img src="produto1.jpg" alt="Produto 1">
+                    <h3>Lingerie Night Sexy Azul</h3>
+                    <p>Lingerie sexy azul, sensual para apimentar a noite.</p>
+                    <span>R$ 79,90</span>
+                </div>
+                <!-- Exemplo de Produto 2 -->
+                <div class="product">
+                    <img src="produto2.jpg" alt="Produto 2">
+                    <h3>Lingerie Night Sexy Branca</h3>
+                    <p>Lingerie sexy branca, sensual para apimentar a noite..</p>
+                    <span>R$ 99,90</span>
+                </div>
+                <!-- Adicionar até 100 produtos aqui -->
+            </div>
+			<div class="products">
+                <!-- Exemplo de Produto 1 -->
+                <div class="product">
+                    <img src="produto3.jpg" alt="Produto 1">
+                    <h3>Camisola Transparente Sexy</h3>
+                    <p>Camisola Transparente preta sexy, com um toque sensual e elegante.</p>
+                    <span>R$ 119,90</span>
+                </div>
+                <!-- Exemplo de Produto 2 -->
+                <div class="product">
+                    <img src="produto4.jpg" alt="Produto 2">
+                    <h3>Lingerie Sexy Branca</h3>
+                    <p>Lingerie Sensual Branca, sensualidade e conforto.</p>
+                    <span>R$ 69,90</span>
+                </div>
+                <!-- Adicionar até 100 produtos aqui -->
+            </div>
+        </section>
+
+        <section id="eroticos" class="category" style="display: none;">
+            <h2>Produtos Eróticos</h2>
+            <div class="products">
+                <!-- Exemplo de Produto 3 -->
+                <div class="product">
+                    <img src="erotico1.jpeg" alt="Produto Erótico 1">
+                    <h3>Produto Erótico 1</h3>
+                    <p>Descrição do produto erótico 1.</p>
+                    <span>R$ 129,90</span>
+                </div>
+                <!-- Exemplo de Produto 4 -->
+                <div class="product">
+                    <img src="erotico2.jpg" alt="Produto Erótico 2">
+                    <h3>Produto Erótico 2</h3>
+                    <p>Descrição do produto erótico 2.</p>
+                    <span>R$ 159,90</span>
+                </div>
+                <!-- Adicionar até 100 produtos aqui -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dama Lingerie - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
